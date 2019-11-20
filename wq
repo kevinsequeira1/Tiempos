@@ -1,0 +1,22 @@
+Login
+# Por favor ingresa el mensaje del commit para tus cambios. Las
+#  líneas que comiencen con '#' serán ignoradas, y un mensaje
+#  vacío aborta el commit.
+#
+# En la rama master
+# Tu rama está actualizada con 'origin/master'.
+#
+# Cambios a ser confirmados:
+#	modificado:     package-lock.json
+#	modificado:     package.json
+#	modificado:     src/app/app-routing.module.ts
+#	modificado:     src/app/app.component.html
+#	modificado:     src/app/app.module.ts
+#	nuevo archivo:  src/app/login/login.component.html
+#	nuevo archivo:  src/app/login/login.component.scss
+#	nuevo archivo:  src/app/login/login.component.spec.ts
+#	nuevo archivo:  src/app/login/login.component.ts
+#	modificado:     src/environments/environment.ts
+#	modificado:     src/index.html
+#	modificado:     src/styles.scss
+#
