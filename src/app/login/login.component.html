@@ -1,0 +1,24 @@
+<div class="mx-auto " style="width: 200px; height: 200px;"   >
+
+<div class="container">
+
+    <h1 class="text-info">Login</h1>
+
+        <div class="center-block " style="width: 200px;" *ngIf="afAuth.user | async as user; else showLogin" >
+                <h1 class="text-primary">Hello {{ user.displayName }}!</h1>
+                <button type="button" class="btn btn-success" (click)="logout()">Logout</button>
+    
+                <ul>
+                    <li *ngFor="let sorteo of sorteos | async">
+                    {{ sorteo.nombre }}
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="center-block" style="width: 200px;">
+                    <ng-template  #showLogin>
+                            <button type="button" class="btn btn-success" (click)="login()">Login with Google</button>
+                        </ng-template> 
+            </div>
+                  
+</div>
